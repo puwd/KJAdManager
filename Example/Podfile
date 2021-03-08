@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KJAdManager_Example' do
+  pod 'KJAdManager', :path => '../'
+
+  target 'KJAdManager_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
