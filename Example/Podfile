@@ -5,9 +5,16 @@ platform :ios, '9.0'
 target 'KJAdManager_Example' do
   pod 'KJAdManager', :path => '../'
 
+    # 穿山甲 (v 3.4.2.3)
+    pod 'Ads-CN'
+    # 优量汇 (v 4.12.3)
+    pod 'GDTMobSDK'
+    
+    pod 'MMKV'
+
   target 'KJAdManager_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    # pod 'FBSnapshotTestCase'
   end
 end

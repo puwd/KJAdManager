@@ -1,0 +1,46 @@
+PODS:
+  - Ads-CN (3.4.2.8):
+    - Ads-CN/BUAdSDK (= 3.4.2.8)
+  - Ads-CN/BUAdSDK (3.4.2.8):
+    - Ads-CN/BUFoundation
+    - Ads-CN/Domestic
+  - Ads-CN/BUFoundation (3.4.2.8)
+  - Ads-CN/Domestic (3.4.2.8)
+  - GDTMobSDK (4.12.3):
+    - GDTMobSDK/GDTMobSDK (= 4.12.3)
+  - GDTMobSDK/GDTMobSDK (4.12.3)
+  - KJAdManager (0.1.0):
+    - Ads-CN
+    - GDTMobSDK
+    - MMKV
+  - MMKV (1.2.7):
+    - MMKVCore (~> 1.2.7)
+  - MMKVCore (1.2.7)
+
+DEPENDENCIES:
+  - Ads-CN
+  - GDTMobSDK
+  - KJAdManager (from `../`)
+  - MMKV
+
+SPEC REPOS:
+  trunk:
+    - Ads-CN
+    - GDTMobSDK
+    - MMKV
+    - MMKVCore
+
+EXTERNAL SOURCES:
+  KJAdManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Ads-CN: 5055041248e93cd9b763023d32a12f3690d8b872
+  GDTMobSDK: 1e245a7a1f3960516fa8f5fb1038a349931dbd90
+  KJAdManager: 4c607e40604f4ec4234cbcd38540f75bd7cf1ad6
+  MMKV: 22e5136f7d00197bc0fc9694b7f71519f0d1ca12
+  MMKVCore: 607b7b05f2c2140056b5d338e45f2c14bf3f4232
+
+PODFILE CHECKSUM: c84c1dfb405eec0ca256ff013a37fb9439fb4f33
+
+COCOAPODS: 1.10.0

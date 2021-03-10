@@ -1,0 +1,6 @@
+framework module KJAdManager {
+  umbrella header "KJAdManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

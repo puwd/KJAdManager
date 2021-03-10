@@ -7,11 +7,17 @@
 //
 
 #import "KJAppDelegate.h"
+#import <KJAdManager/KJAdConfigure.h>
+#import <KJAdManager/KJAdPangleManager.h>
 
 @implementation KJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    KJAdConfigure * adConfigure = KJAdConfigure.configure;
+    adConfigure.appID(@"1").bannerID(@"2").splashID(@"3").configurePangle();
+    adConfigure.appID(@"5").congifureTencentAdnet();
+    
     // Override point for customization after application launch.
     return YES;
 }
